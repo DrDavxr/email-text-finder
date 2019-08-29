@@ -43,7 +43,7 @@ where the first command is ran in [Git Bash](https://git-scm.com/downloads) and 
 
 ## Meta :mag_right:
 
-David - Any suggestion? Contact me! davixrgithub@gmail.com
+Any suggestion? Contact me! davixrgithub@gmail.com
 
 Distributed under the MIT license. See [LICENSE](https://github.com/DrDavxr/email-text-finder/blob/master/LICENSE) for more information.
 

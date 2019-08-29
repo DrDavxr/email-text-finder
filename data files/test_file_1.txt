@@ -1,6 +1,6 @@
-This is a text file that contains daser1998@gmail.com several email addresses davixr2.0amazon@gmail.com like the previous
-ones. From this text davixrgithub@gmail.com we expect Python to extract all the addresses and save them in a simple and
-easy to access set, which does not contain repeated emails daser1998@gmail.com and we need to check the end of bydavixr@gmail.com
-Furthermore, it can detect multiple domain extensions like tracasytracas@hotmail.com or thebestlvper@yahoo.com .
-However, we need to create a user@alumnos.uc3m.es a searcher that gets an email list independently of the domain, since
+This is a text file that contains user_1@outlook.com several email addresses user2.0github_project@gmail.com like the previous
+ones. From this text user@gmail.com we expect Python to extract all the addresses and save them in a simple and
+easy to access set, which does not contain repeated emails user_1@gmail.com and we need to check the end of user@gmail.com
+Furthermore, it can detect multiple domain extensions like corporative.email@corporation.com or email_finder@domain.com .
+However, we need to create a user@edu.domain.es a searcher that gets an email list independently of the domain, since
 emails like user@mit.edu is not detected.

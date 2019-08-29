@@ -20,6 +20,6 @@ class File():
             with open(self.file_name, 'r') as f:
                 self.lines = f.readlines()  # list containing all the lines.
                 f.close()
+                return self.lines  # Returns a list with all the lines.
         except FileNotFoundError:
             sys.exit("FILE WAS NOT SELECTED OR FOUND!")
-        return self.lines  # Returns a list with all the lines.

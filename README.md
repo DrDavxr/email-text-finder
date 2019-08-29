@@ -1,43 +1,31 @@
 # :email: Email Finder.
 > Find and display a list of all the valid emails that are found given a text file.
 
-This email finder application searches for all the valid emails given a `.txt`file (aiming to support more file extensions in the future) by using the [RFC 5322 criteria](https://tools.ietf.org/html/rfc5322).
+This email finder application searches for all the valid emails given a `.txt`file (aiming to support more file extensions in the future) by using the [RFC 5322 criteria](https://tools.ietf.org/html/rfc5322). The result is a set containing all the valid emails that were found on the text file chosen by the user.
 
-![alt text](https://imgur.com/oPrLbwr)
+![Program output](https://github.com/DrDavxr/email-text-finder/blob/master/email-text-finder.PNG)
 
-## Installation
+## Installation and use
 
-OS X & Linux:
+In order to run this program, the following modules are required:
 
-```sh
-npm install my-crazy-module --save
-```
+* regular expression.
+* system.
+* tkinter.
 
-Windows:
+Please, refer to the [References section](references) for more information regarding these modules.
 
-```sh
-edit autoexec.bat
-```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+To run the program, simply clone the repository and run the main.py script using the following commands:
 
 ```sh
-make install
-npm test
+git clone https://github.com/DrDavxr/email-text-finder.git
+python main.py
 ```
+where the first command is ran in [Git Bash](https://git-scm.com/downloads) and the second one in the terminal.
 
 ## Release History
 
 * 0.1.0
-    * The first proper release
     * CHANGE: Rename email_checker to main.
     * CHANGE: Now all domains are accepted.
     * CHANGE: Now all the modules are packaged into mainPackage.
@@ -62,7 +50,7 @@ You can find me on _Github_ as [DrDavxr](https://github.com/dbader/)
 4. Push to the branch (`git push origin feature/feature-name`)
 5. Create a new Pull Request
 
-## Documentation:
+## References
 - Python Pocket Reference: https://www.amazon.es/Python-Pocket-Reference-OReilly/dp/1449357016/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1797U3V1V37LH&keywords=python+pocket+reference&qid=1567020550&s=gateway&sprefix=python+pocke%2Caps%2C478&sr=8-1
 - Regular expression operations: https://docs.python.org/3/library/re.html
 - Tkinter documentation: https://pythonspot.com/tk-file-dialogs/

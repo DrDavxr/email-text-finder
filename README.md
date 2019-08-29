@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Email Finder :email:
-> Find and display a list of all the valid emails that are found given a text file.
+> Finds and display a list of all the valid emails that are found given a text file.
 
 This email finder application searches for all the valid emails given a `.txt`file (aiming to support more file extensions in the future) by using the [RFC 5322 criteria](https://tools.ietf.org/html/rfc5322). The result is a set containing all the valid emails that were found on the text file chosen by the user.
 

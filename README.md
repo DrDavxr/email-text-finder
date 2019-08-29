@@ -51,6 +51,6 @@ You can find me on _Github_ as [DrDavxr](https://github.com/dbader/)
 5. Create a new Pull Request
 
 ## References
-- Python Pocket Reference: https://www.amazon.es/Python-Pocket-Reference-OReilly/dp/1449357016/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1797U3V1V37LH&keywords=python+pocket+reference&qid=1567020550&s=gateway&sprefix=python+pocke%2Caps%2C478&sr=8-1
+- Python Documentation: https://docs.python.org/3/
 - Regular expression operations: https://docs.python.org/3/library/re.html
 - Tkinter documentation: https://pythonspot.com/tk-file-dialogs/

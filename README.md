@@ -45,7 +45,7 @@ where the first command is ran in [Git Bash](https://git-scm.com/downloads) and 
 
 David - Any suggestion? Contact me! davixrgithub@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 You can find me on _Github_ as [DrDavxr](https://github.com/dbader/)
 

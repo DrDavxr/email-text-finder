@@ -13,7 +13,7 @@ In order to run this program, the following modules are required:
 * system.
 * tkinter.
 
-Please, refer to the [References section](references) for more information regarding these modules.
+Please, refer to the [References section](#references) for more information regarding these modules.
 
 To run the program, simply clone the repository and run the main.py script using the following commands:
 

@@ -26,6 +26,9 @@ where the first command is ran in [Git Bash](https://git-scm.com/downloads) and 
 
 ## Release History :hammer_and_wrench:
 
+* 0.1.1
+    * ADD: Optimization tasks for opening large files.
+
 * 0.1.0
     * CHANGE: Rename email_checker to main.
     * CHANGE: Now all the modules are packaged into mainPackage.

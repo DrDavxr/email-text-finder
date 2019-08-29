@@ -21,6 +21,7 @@ class File():
             with open(self.filename, 'r') as f:
                 for line in f:
                     emails = email_validation.email_analyze(line, emails)
+                f.close()
             return emails
         except FileNotFoundError:
             sys.exit("FILE WAS NOT SELECTED OR FOUND!")

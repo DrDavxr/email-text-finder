@@ -10,9 +10,9 @@ This email finder application searches for all the valid emails given a `.txt`fi
 
 In order to run this program, the following modules are required:
 
-* regular expression.
-* system.
-* tkinter.
+* `regular expression`
+* `system`
+* `tkinter`
 
 Please, refer to the [References section](#references) for more information regarding these modules.
 

@@ -13,6 +13,11 @@ In order to run this program, the following modules are required:
 * `regular expression`
 * `system`
 * `tkinter`
+* `pdfminer3`
+* `progress`
+* `io`
+* `PyPDF2`
+* `os`
 
 Please, refer to the [References section](#references) for more information regarding these modules.
 
@@ -25,6 +30,10 @@ python main.py
 where the first command is ran in [Git Bash](https://git-scm.com/downloads) and the second one in the terminal.
 
 ## Release History :hammer_and_wrench:
+
+* 0.2.0
+    * ADD: PDF files can now be opened!
+    * ADD: Progress bar.
 
 * 0.1.2
     * BUG: Fixed a bug where the file was not closed.

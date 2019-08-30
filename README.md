@@ -67,6 +67,10 @@ You can find me on _Github_ as [DrDavxr](https://github.com/dbader/)
 5. Create a new Pull Request
 
 ## References :green_book:
-- Python Documentation: https://docs.python.org/3/
+- Python documentation: https://docs.python.org/3/
 - Regular expression operations: https://docs.python.org/3/library/re.html
 - Tkinter documentation: https://pythonspot.com/tk-file-dialogs/
+- io documentation: https://docs.python.org/3/library/io.html
+- Pdfminer3 documentation: https://github.com/gwk/pdfminer3
+- Progress documentation: https://github.com/verigak/progress/
+- PyPDF2 documentation: https://pythonhosted.org/PyPDF2/

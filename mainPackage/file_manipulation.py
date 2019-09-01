@@ -2,7 +2,7 @@
 This module contains all the code related with the manipulation of file(s).
 '''
 import sys
-from mainPackage import email_validation, pdf2text
+from mainPackage import email_validation, pdf2text, docx2text
 import tkinter
 from tkinter import messagebox
 from progress.bar import ShadyBar
@@ -13,6 +13,15 @@ class File():
     def __init__(self, filename, extension):
         self.filename = filename
         self.extension = extension
+        message = \
+            'App created with ♥ by David: Copyright (c) 2019 David Poves Ros'
+        print(message)
+        print('---------------------------------------------')
+        print('Credits to the creators of the following modules:')
+        print('pdfminer3: Copyright (c) 2004-2014 Yusuke Shinyama')
+        print('progress: Copyright (c) 2012 Giorgos Verigakis')
+        print('PyPDF2: Copyright (c) 2006-2008, Mathieu Fenniak')
+        print('---------------------------------------------')
 
     def __str__(self):
         return "Opening file '{file}' ... \n".format(file=self.filename)
@@ -38,6 +47,10 @@ class File():
                 return emails
             elif self.extension == 'pdf':
                 text = pdf2text.pdf_conversion(self.filename)
+                emails = email_validation.email_analyze(text, emails)
+                return emails
+            elif self.extension == 'docx':
+                text = docx2text.get_docx_text(self.filename)
                 emails = email_validation.email_analyze(text, emails)
                 return emails
             else:

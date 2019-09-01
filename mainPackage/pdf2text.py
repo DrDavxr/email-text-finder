@@ -1,7 +1,8 @@
 '''
 This module extract the text from a pdf file.
 DISCLAIMER: Although this method works properly most of the times, sometimes
-it gives slightly wrong directions due to pdf formatting issues.
+it gives slightly wrong directions due to pdf formatting issues. This is fixed
+by using the email_curate script.
 '''
 
 from pdfminer3.pdfpage import PDFPage

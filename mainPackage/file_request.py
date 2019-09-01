@@ -21,5 +21,6 @@ def file_req():
                                title="Select file...",
                                filetypes=(("Text files (.txt)", "*.txt"),
                                           ("PDF Files (.pdf)", "*.pdf"),
+                                          ("DOCX Files (.docx)", "*.docx"),
                                           ("All files (*.*)", "*.*")))
     return filename
